@@ -13,4 +13,6 @@ The Menu is located at the left side of the Screen and includes:
     - Disclaimer
     - Foobar
 
+Beneath that there are some Quotes from our customers as 4 cards in columns.
+
 Built with Bootstrap 4.
