@@ -11,5 +11,6 @@ The Menu is located at the left side of the Screen and includes:
     - Pricing
     - Ingredients
     - Disclaimer
+    - Foobar
 
 Built with Bootstrap 4.
