@@ -1,3 +1,6 @@
 ## Demo Website
 
-For now only a small Hello World Home page in pure HTML styled with Bootstrap 4
+A Basic landing page advertising our new Produkt Mega Joghurt 3000.
+Hip, trendy, vegan simply awesome.
+
+Built with Bootstrap 4.
