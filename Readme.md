@@ -1,7 +1,9 @@
 ## Demo Website
 
-A Basic landing page advertising our new Product Mega Joghurt 3000.
+A Basic landing page advertising our new Product Walkman 3000.
 Hip, trendy, vegan simply awesome.
+And most of all, very loud!
+It even plays Vinyls!
 
 There is a nice Header with 3 Boxes beneath that that have some text in there to advertise the Product.
 
