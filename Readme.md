@@ -11,6 +11,7 @@ We need a footer with some disclaimer links, some links to common social media p
 
 Beneath that there are some Quotes from our customers as 4 cards in columns, each card has a dummy image for now.
 
+Build with ReactJS.
 Build with Tailwind CSS.
 My Primary Color is #FFFF22.
 Text should be colored red;
