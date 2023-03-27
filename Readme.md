@@ -8,3 +8,5 @@ It even plays Vinyls!
 Beneath that there are some Quotes from our customers as 4 cards in columns.
 
 Build with Tailwind CSS.
+My Primary Color is indigo.
+Text should be colored red;
