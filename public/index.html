@@ -1,61 +1,54 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.3/css/foundation.min.css" integrity="sha512-8bqCw9W8JvirgBwAPJ5Xg5zjjeN8XCp+2J9T5i7gcxKhw7w6z2KmiU7h3K9dKmqfX2Bn9WHbXO8C0rY0VmRt5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .text-primary {
-            color: #FFFF22;
-        }
-        .text-red {
-            color: red;
-        }
-    </style>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header class="top-bar">
-        <div class="top-bar-left">
-            <h1 class="text-primary">Walkman 3000</h1>
-        </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li><a href="#" class="text-red">Home</a></li>
-                <li><a href="#" class="text-red">Product Details</a></li>
-                <li><a href="#" class="text-red">Contact Us</a></li>
-            </ul>
-        </div>
-    </header>
 
-    <section class="grid-container">
-        <h2 class="text-2xl font-bold mb-6 text-primary">Customer Quotes</h2>
-        <div class="grid-x grid-margin-x">
-            <!-- Customer quote cards go here -->
-        </div>
-    </section>
+<div class="container">
+    <h1 class="text-center mt-5">Walkman 3000</h1>
+    <p class="text-center">Hip, trendy, vegan simply awesome. And most of all, very loud! It even plays Vinyls!</p>
 
-    <footer class="grid-container">
-        <div class="grid-x grid-margin-x align-middle">
-            <div class="cell small-12 medium-4">
-                <ul class="menu">
-                    <li><a href="#" class="text-red">Disclaimer</a></li>
-                    <li><a href="#" class="text-red">Privacy Policy</a></li>
-                    <li><a href="#" class="text-red">Terms of Service</a></li>
-                </ul>
-            </div>
-            <div class="cell small-12 medium-4">
-                <ul class="menu">
-                    <li><a href="#" class="text-red">Facebook</a></li>
-                    <li><a href="#" class="text-red">Twitter</a></li>
-                    <li><a href="#" class="text-red">Instagram</a></li>
-                </ul>
-            </div>
-            <div class="cell small-12 medium-4">
-                <p class="text-primary">&copy; 2023 Walkman 3000. All rights reserved.</p>
+    <h2 class="text-center mt-5">Customer Quotes</h2>
+    <div class="row mt-3">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"I love my Walkman 3000! It's the best thing I've ever bought!"</p>
+                </div>
             </div>
         </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.3/js/foundation.min.js" integrity="sha512-ARgB3JfqcJqh7N3z/y9CBiY2p9edN3+qGCqK9JlH5J4EQWUBr+K5Kb5GK7C8WpK3zD5vJSX1F7L3G7ujIj5QMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"The sound quality is amazing, and I love that it plays vinyls!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"I can't believe how loud it is! My neighbors are going to hate me!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"I've never had a music player like this before. It's truly one of a kind!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
+```
