@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.3/css/foundation.min.css" integrity="sha512-8bqCw9W8JvirgBwAPJ5Xg5zjjeN8XCp+2J9T5i7gcxKhw7w6z2KmiU7h3K9dKmqfX2Bn9WHbXO8C0rY0VmRt5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .text-primary {
             color: #FFFF22;
         }
         .text-red {
-            color: #EF4444;
+            color: red;
         }
     </style>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-indigo-500 text-white text-center py-8">
-        <h1 class="text-4xl font-bold">Walkman 3000</h1>
-        <p class="text-xl mt-2 text-red">Hip, trendy, vegan simply awesome. And most of all, very loud! It even plays Vinyls!</p>
-        <nav class="mt-4">
-            <a href="#" class="text-white hover:text-primary mx-2">Home</a>
-            <a href="#" class="text-white hover:text-primary mx-2">Product Details</a>
-            <a href="#" class="text-white hover:text-primary mx-2">Contact Us</a>
-        </nav>
+<body>
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <h1 class="text-primary">Walkman 3000</h1>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="#" class="text-red">Home</a></li>
+                <li><a href="#" class="text-red">Product Details</a></li>
+                <li><a href="#" class="text-red">Contact Us</a></li>
+            </ul>
+        </div>
     </header>
 
-    <section class="container mx-auto mt-12">
+    <section class="grid-container">
         <h2 class="text-2xl font-bold mb-6 text-primary">Customer Quotes</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="grid-x grid-margin-x">
             <!-- Customer quote cards go here -->
         </div>
     </section>
 
-    <footer class="bg-indigo-500 text-white text-center py-8 mt-12">
-        <div class="container mx-auto">
-            <div class="flex flex-wrap justify-center mb-4">
-                <a href="#" class="text-white hover:text-primary mx-2">Disclaimer</a>
-                <a href="#" class="text-white hover:text-primary mx-2">Privacy Policy</a>
-                <a href="#" class="text-white hover:text-primary mx-2">Terms of Service</a>
+    <footer class="grid-container">
+        <div class="grid-x grid-margin-x align-middle">
+            <div class="cell small-12 medium-4">
+                <ul class="menu">
+                    <li><a href="#" class="text-red">Disclaimer</a></li>
+                    <li><a href="#" class="text-red">Privacy Policy</a></li>
+                    <li><a href="#" class="text-red">Terms of Service</a></li>
+                </ul>
             </div>
-            <div class="flex flex-wrap justify-center mb-4">
-                <a href="#" class="text-white hover:text-primary mx-2">Facebook</a>
-                <a href="#" class="text-white hover:text-primary mx-2">Twitter</a>
-                <a href="#" class="text-white hover:text-primary mx-2">Instagram</a>
+            <div class="cell small-12 medium-4">
+                <ul class="menu">
+                    <li><a href="#" class="text-red">Facebook</a></li>
+                    <li><a href="#" class="text-red">Twitter</a></li>
+                    <li><a href="#" class="text-red">Instagram</a></li>
+                </ul>
             </div>
-            <p class="text-sm text-primary">&copy; 2023 Walkman 3000. All rights reserved.</p>
+            <div class="cell small-12 medium-4">
+                <p class="text-primary">&copy; 2023 Walkman 3000. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.3/js/foundation.min.js" integrity="sha512-ARgB3JfqcJqh7N3z/y9CBiY2p9edN3+qGCqK9JlH5J4EQWUBr+K5Kb5GK7C8WpK3zD5vJSX1F7L3G7ujIj5QMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
